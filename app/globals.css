@@ -4,75 +4,76 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Digital magazine design tokens - warm amber and sophisticated palette */
-  --background: #ffffff; /* Pure white background */
-  --foreground: #374151; /* Sophisticated dark gray text */
-  --card: #fefce8; /* Light cream card background */
-  --card-foreground: #374151; /* Dark text on cards */
-  --popover: #ffffff; /* White popover background */
-  --popover-foreground: #374151; /* Dark gray text */
-  --primary: #d97706; /* Warm amber primary */
-  --primary-foreground: #ffffff; /* White text on primary */
-  --secondary: #f97316; /* Bright orange secondary */
-  --secondary-foreground: #ffffff; /* White text on secondary */
-  --muted: #f0fdf4; /* Muted light green background */
-  --muted-foreground: #374151; /* Dark text on muted */
-  --accent: #f97316; /* Bright orange accent */
-  --accent-foreground: #ffffff; /* White accent text */
-  --destructive: #ea580c; /* Warning orange */
-  --destructive-foreground: #ffffff; /* White destructive text */
-  --border: #d1d5db; /* Light gray border */
-  --input: #ffffff; /* White input background */
-  --ring: rgba(0, 0, 0, 0.1); /* Subtle focus ring */
-  --chart-1: #fffbeb;
-  --chart-2: #fefce8;
-  --chart-3: #f97316;
-  --chart-4: #d97706;
-  --chart-5: #ea580c;
-  --radius: 0.5rem;
-  --sidebar: #fefce8;
-  --sidebar-foreground: #374151;
-  --sidebar-primary: #d97706;
-  --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #f97316;
-  --sidebar-accent-foreground: #ffffff;
-  --sidebar-border: #e5e7eb;
-  --sidebar-ring: rgba(0, 0, 0, 0.1);
+  /* Updated to elite luxury color scheme with rich gold and sophisticated neutrals */
+  --background: #ffffff; /* Clean and elegant background */
+  --foreground: #374151; /* Deep charcoal for text */
+  --card: #fefce8; /* Soft cream for card backgrounds */
+  --card-foreground: #374151; /* Charcoal text on cards */
+  --popover: #ffffff; /* White popover for clarity */
+  --popover-foreground: #374151; /* Charcoal text in popovers */
+  --primary: #d97706; /* Gold for luxury accents and CTAs */
+  --primary-foreground: #ffffff; /* White text on primary elements */
+  --secondary: #fefce8; /* Soft cream for secondary elements */
+  --secondary-foreground: #374151; /* Charcoal text on secondary elements */
+  --muted: #ecfeff; /* Light cyan for subtle backgrounds */
+  --muted-foreground: #475569; /* Muted text for less emphasis */
+  --accent: #d97706; /* Gold used for accents */
+  --accent-foreground: #ffffff; /* White text on accent elements */
+  --destructive: #ef4444; /* Red for alerts or errors */
+  --destructive-foreground: #ffffff; /* White text on destructive actions */
+  --border: #374151; /* Charcoal for borders */
+  --input: #ffffff; /* White for input fields */
+  --ring: #d97706; /* Gold for focus rings */
+  --chart-1: #d97706; /* Gold for chart elements */
+  --chart-2: #fefce8; /* Soft cream for additional chart contrasts */
+  --chart-3: #374151; /* Deep charcoal for further contrasts */
+  --chart-4: #ffffff; /* White for clarity */
+  --chart-5: #ecfeff; /* Light cyan for additional accents */
+  --radius: 0.5rem; /* Subtle rounding for a modern touch */
+  --sidebar: #fefce8; /* Soft cream for sidebar backgrounds */
+  --sidebar-foreground: #374151; /* Charcoal text in sidebar */
+  --sidebar-primary: #d97706; /* Gold for primary sidebar elements */
+  --sidebar-primary-foreground: #ffffff; /* White text on primary sidebar elements */
+  --sidebar-accent: #ecfeff; /* Light cyan for sidebar accents */
+  --sidebar-accent-foreground: #374151; /* Charcoal text on sidebar accents */
+  --sidebar-border: #374151; /* Charcoal for sidebar borders */
+  --sidebar-ring: #d97706; /* Gold for sidebar focus rings */
 }
 
 .dark {
-  --background: #1f2937;
-  --foreground: #f9fafb;
-  --card: #374151;
-  --card-foreground: #f9fafb;
-  --popover: #374151;
-  --popover-foreground: #f9fafb;
-  --primary: #f59e0b;
-  --primary-foreground: #1f2937;
-  --secondary: #fb923c;
-  --secondary-foreground: #1f2937;
-  --muted: #4b5563;
-  --muted-foreground: #d1d5db;
-  --accent: #fb923c;
-  --accent-foreground: #1f2937;
-  --destructive: #f97316;
-  --destructive-foreground: #1f2937;
-  --border: #4b5563;
-  --input: #374151;
-  --ring: rgba(249, 115, 22, 0.3);
-  --chart-1: #451a03;
-  --chart-2: #7c2d12;
-  --chart-3: #fb923c;
-  --chart-4: #f59e0b;
-  --chart-5: #f97316;
-  --sidebar: #374151;
-  --sidebar-foreground: #f9fafb;
-  --sidebar-primary: #f59e0b;
-  --sidebar-primary-foreground: #f9fafb;
-  --sidebar-accent: #fb923c;
-  --sidebar-accent-foreground: #f9fafb;
-  --sidebar-border: #4b5563;
-  --sidebar-ring: rgba(249, 115, 22, 0.3);
+  /* Updated dark mode colors to complement the elite luxury theme */
+  --background: #0f172a; /* Deep midnight blue for sophisticated dark background */
+  --foreground: #f8fafc; /* Soft white for text */
+  --card: #1e293b; /* Dark slate for cards */
+  --card-foreground: #f8fafc; /* Light text on dark cards */
+  --popover: #1e293b; /* Dark slate for popovers */
+  --popover-foreground: #f8fafc; /* Light text in popovers */
+  --primary: #fbbf24; /* Brighter gold for dark mode visibility */
+  --primary-foreground: #0f172a; /* Dark text on gold elements */
+  --secondary: #334155; /* Medium slate for secondary elements */
+  --secondary-foreground: #f8fafc; /* Light text on secondary */
+  --muted: #1e293b; /* Dark slate for muted backgrounds */
+  --muted-foreground: #94a3b8; /* Muted light text */
+  --accent: #fbbf24; /* Bright gold for accents */
+  --accent-foreground: #0f172a; /* Dark text on accent elements */
+  --destructive: #ef4444; /* Red for alerts */
+  --destructive-foreground: #f8fafc; /* Light text on destructive */
+  --border: #334155; /* Medium slate for borders */
+  --input: #1e293b; /* Dark slate for inputs */
+  --ring: #fbbf24; /* Gold focus rings */
+  --chart-1: #fbbf24; /* Gold for charts */
+  --chart-2: #334155; /* Slate for chart contrasts */
+  --chart-3: #f8fafc; /* Light for additional contrasts */
+  --chart-4: #1e293b; /* Dark slate */
+  --chart-5: #0f172a; /* Deep midnight */
+  --sidebar: #1e293b; /* Dark slate sidebar */
+  --sidebar-foreground: #f8fafc; /* Light sidebar text */
+  --sidebar-primary: #fbbf24; /* Gold sidebar primary */
+  --sidebar-primary-foreground: #0f172a; /* Dark text on gold */
+  --sidebar-accent: #334155; /* Slate sidebar accents */
+  --sidebar-accent-foreground: #f8fafc; /* Light text on accents */
+  --sidebar-border: #334155; /* Slate borders */
+  --sidebar-ring: #fbbf24; /* Gold focus rings */
 }
 
 @theme inline {
@@ -179,7 +180,7 @@
     box-shadow: 0 0 20px rgba(217, 119, 6, 0.3), 0 0 40px rgba(217, 119, 6, 0.1), 0 0 60px rgba(217, 119, 6, 0.05);
   }
   50% {
-    box-shadow: 0 0 30px rgba(217, 119, 6, 0.5), 0 0 60px rgba(217, 119, 6, 0.2), 0 0 90px rgba(217, 119, 6, 0.1);
+    box-shadow: 0 0 30px rgba(251, 191, 36, 0.5), 0 0 60px rgba(251, 191, 36, 0.2), 0 0 90px rgba(251, 191, 36, 0.1);
   }
 }
 
@@ -397,7 +398,7 @@
 }
 
 .premium-gradient {
-  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 50%, var(--secondary) 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 50%, var(--muted) 100%);
   background-size: 200% 200%;
 }
 
@@ -503,6 +504,6 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, var(--accent), var(--secondary));
-  box-shadow: 0 0 10px rgba(217, 119, 6, 0.5);
+  background: linear-gradient(to bottom, var(--accent), var(--primary));
+  box-shadow: 0 0 10px rgba(251, 191, 36, 0.5);
 }
